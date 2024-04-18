@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from camera_msgs/srv/CaptureImage.srv
+// generated code does not contain a copyright notice
+
+
+module camera_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct CaptureImage_Request {
+      @verbatim (language="comment", text=
+        "저장할 프레임의 ID")
+      int64 frame_id;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct CaptureImage_Response {
+      @verbatim (language="comment", text=
+        "캡처 성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "상태 메시지")
+      string message;
+    };
+  };
+};

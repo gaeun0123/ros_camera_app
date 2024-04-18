@@ -1,0 +1,4 @@
+camera_controller:
+  ros_parameters:
+    width: 480
+    length: 320

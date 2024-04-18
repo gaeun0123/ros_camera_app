@@ -1,0 +1,6 @@
+# Request
+int64 frame_id  # 저장할 프레임의 ID
+---
+# Response
+bool success    # 캡처 성공 여부
+string message  # 상태 메시지

@@ -1,0 +1,7 @@
+{
+  "package_name": "camera_msgs",
+  "non_idl_tuples": [
+    "/home/addinedu/ros_ws/camera_app/src/camera_msgs:action/StartRecording.action",
+    "/home/addinedu/ros_ws/camera_app/src/camera_msgs:srv/CaptureImage.srv"
+  ]
+}

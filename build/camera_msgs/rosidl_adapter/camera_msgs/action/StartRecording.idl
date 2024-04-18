@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from camera_msgs/action/StartRecording.action
+// generated code does not contain a copyright notice
+
+
+module camera_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct StartRecording_Goal {
+      string filename;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct StartRecording_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct StartRecording_Feedback {
+      int32 frames_recorded;
+    };
+  };
+};

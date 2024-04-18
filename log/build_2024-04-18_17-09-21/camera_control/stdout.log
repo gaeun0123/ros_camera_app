@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/camera_control/camera_control.egg-info
+writing ../../build/camera_control/camera_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_control/camera_control.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_control/camera_control.egg-info/entry_points.txt
+writing requirements to ../../build/camera_control/camera_control.egg-info/requires.txt
+writing top-level names to ../../build/camera_control/camera_control.egg-info/top_level.txt
+writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/addinedu/ros_ws/camera_app/build/camera_control/build
+creating /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib
+creating /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+copying camera_control/video_recorder_server.py -> /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+copying camera_control/camera_controller.py -> /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+copying camera_control/__init__.py -> /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+copying camera_control/video_recorder_client.py -> /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+running install
+running install_lib
+creating /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control/video_recorder_server.py -> /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control/camera_controller.py -> /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control/__init__.py -> /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control/video_recorder_client.py -> /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+byte-compiling /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/video_recorder_server.py to video_recorder_server.cpython-310.pyc
+byte-compiling /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/camera_controller.py to camera_controller.cpython-310.pyc
+byte-compiling /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/video_recorder_client.py to video_recorder_client.cpython-310.pyc
+running install_data
+creating /home/addinedu/ros_ws/camera_app/install/camera_control/share/ament_index
+creating /home/addinedu/ros_ws/camera_app/install/camera_control/share/ament_index/resource_index
+creating /home/addinedu/ros_ws/camera_app/install/camera_control/share/ament_index/resource_index/packages
+copying resource/camera_control -> /home/addinedu/ros_ws/camera_app/install/camera_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control
+running install_egg_info
+Copying ../../build/camera_control/camera_control.egg-info to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_controller script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+Installing video_recorder_client script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+Installing video_recorder_server script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+writing list of installed files to '/home/addinedu/ros_ws/camera_app/build/camera_control/install.log'

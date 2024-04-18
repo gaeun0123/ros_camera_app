@@ -1,0 +1,2 @@
+Invoking command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs': /usr/bin/cmake /home/addinedu/ros_ws/camera_app/src/camera_msgs -DCMAKE_INSTALL_PREFIX=/home/addinedu/ros_ws/camera_app/install/camera_msgs
+Invoked command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs' returned '1': /usr/bin/cmake /home/addinedu/ros_ws/camera_app/src/camera_msgs -DCMAKE_INSTALL_PREFIX=/home/addinedu/ros_ws/camera_app/install/camera_msgs

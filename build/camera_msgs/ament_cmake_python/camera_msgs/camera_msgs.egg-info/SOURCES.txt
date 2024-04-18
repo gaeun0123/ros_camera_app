@@ -1,0 +1,10 @@
+setup.py
+camera_msgs/__init__.py
+camera_msgs.egg-info/PKG-INFO
+camera_msgs.egg-info/SOURCES.txt
+camera_msgs.egg-info/dependency_links.txt
+camera_msgs.egg-info/top_level.txt
+camera_msgs/action/__init__.py
+camera_msgs/action/_start_recording.py
+camera_msgs/srv/__init__.py
+camera_msgs/srv/_capture_image.py

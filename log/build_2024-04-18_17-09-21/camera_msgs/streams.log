@@ -1,0 +1,217 @@
+[0.199s] Invoking command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addinedu/ros_ws/camera_app/src/camera_msgs -DCMAKE_INSTALL_PREFIX=/home/addinedu/ros_ws/camera_app/install/camera_msgs
+[0.209s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.369s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.954s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.970s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.970s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.970s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.983s] -- Found PythonExtra: .so  
+[1.007s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.015s] -- Added test 'lint_cmake' to check CMake code style
+[1.016s] -- Added test 'xmllint' to check XML markup files
+[1.017s] -- Configuring done
+[1.034s] -- Generating done
+[1.036s] -- Build files have been written to: /home/addinedu/ros_ws/camera_app/build/camera_msgs
+[1.041s] Invoked command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/addinedu/ros_ws/camera_app/src/camera_msgs -DCMAKE_INSTALL_PREFIX=/home/addinedu/ros_ws/camera_app/install/camera_msgs
+[1.042s] Invoking command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addinedu/ros_ws/camera_app/build/camera_msgs -- -j8 -l8
+[1.071s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.078s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.084s] [  6%] Built target ament_cmake_python_copy_camera_msgs
+[1.252s] running egg_info
+[1.252s] creating camera_msgs.egg-info
+[1.253s] writing camera_msgs.egg-info/PKG-INFO
+[1.253s] writing dependency_links to camera_msgs.egg-info/dependency_links.txt
+[1.253s] writing top-level names to camera_msgs.egg-info/top_level.txt
+[1.253s] writing manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[1.254s] reading manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[1.255s] writing manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[1.274s] [  6%] Built target ament_cmake_python_build_camera_msgs_egg
+[1.371s] [  6%] Built target camera_msgs__cpp
+[1.375s] [  9%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/action/detail/start_recording__functions.c.o[0m
+[1.378s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.378s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.378s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.473s] [ 22%] [32m[1mLinking C shared library libcamera_msgs__rosidl_generator_c.so[0m
+[1.513s] [ 22%] Built target camera_msgs__rosidl_generator_c
+[1.525s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.526s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.526s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.638s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msgs/action/start_recording__type_support.cpp.o[0m
+[1.716s] [ 38%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msgs/action/detail/dds_fastrtps/start_recording__type_support.cpp.o[0m
+[1.755s] [ 41%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msgs/action/detail/start_recording__type_support.cpp.o[0m
+[1.816s] [ 45%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msgs/action/start_recording__type_support.cpp.o[0m
+[1.853s] [ 48%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_c.so[0m
+[1.883s] [ 48%] Built target camera_msgs__rosidl_typesupport_c
+[1.933s] [ 51%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_cpp.so[0m
+[1.965s] [ 51%] Built target camera_msgs__rosidl_typesupport_cpp
+[1.989s] [ 54%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msgs/action/detail/start_recording__type_support.c.o[0m
+[2.003s] [ 58%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msgs/action/detail/start_recording__type_support_c.cpp.o[0m
+[2.021s] [ 61%] [32m[1mLinking C shared library libcamera_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.046s] [ 61%] Built target camera_msgs__rosidl_typesupport_introspection_c
+[2.180s] [ 64%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.231s] [ 67%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.235s] [ 67%] Built target camera_msgs__rosidl_typesupport_fastrtps_cpp
+[2.276s] [ 70%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.282s] [ 70%] Built target camera_msgs__rosidl_typesupport_introspection_cpp
+[2.326s] [ 70%] Built target camera_msgs__rosidl_typesupport_fastrtps_c
+[2.341s] [ 70%] Built target camera_msgs
+[2.355s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.836s] [ 74%] Built target camera_msgs__py
+[2.851s] [ 77%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/camera_msgs/action/_start_recording_s.c.o[0m
+[2.939s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/camera_msgs/libcamera_msgs__rosidl_generator_py.so[0m
+[2.967s] [ 80%] Built target camera_msgs__rosidl_generator_py
+[2.982s] [ 90%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.982s] [ 90%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.983s] [ 90%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.060s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.060s] [100%] [32m[1mLinking C shared library rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.061s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.087s] [100%] Built target camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.087s] [100%] Built target camera_msgs__rosidl_typesupport_introspection_c__pyext
+[3.088s] [100%] Built target camera_msgs__rosidl_typesupport_c__pyext
+[3.096s] Invoked command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/addinedu/ros_ws/camera_app/build/camera_msgs -- -j8 -l8
+[3.142s] Invoking command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/addinedu/ros_ws/camera_app/build/camera_msgs
+[3.147s] -- Install configuration: ""
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/ament_index/resource_index/rosidl_interfaces/camera_msgs
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__functions.h
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__type_support.h
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__struct.h
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__functions.c
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/start_recording.h
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/library_path.sh
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/library_path.dsv
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_c.so
+[3.148s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_c.so" to ""
+[3.148s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.148s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[3.148s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__rosidl_typesupport_fastrtps_c.h
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_c.so
+[3.149s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__rosidl_typesupport_introspection_c.h
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__type_support.c
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_c.so
+[3.149s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.149s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_c.so
+[3.149s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_c.so" to ""
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.149s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__struct.hpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__builder.hpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__traits.hpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/start_recording.hpp
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__rosidl_typesupport_fastrtps_cpp.hpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/dds_fastrtps
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.150s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action
+[3.150s] -- Up-to-date: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__rosidl_typesupport_introspection_cpp.hpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/include/camera_msgs/camera_msgs/action/detail/start_recording__type_support.cpp
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_cpp.so
+[3.150s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.150s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_cpp.so
+[3.151s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_cpp.so" to ""
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/pythonpath.sh
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/pythonpath.dsv
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs-0.0.0-py3.10.egg-info
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_c.c
+[3.151s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/__init__.py
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/libcamera_msgs__rosidl_generator_py.so
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action/_start_recording_s.c
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action/__init__.py
+[3.152s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action/_start_recording.py
+[3.176s] Listing '/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs'...
+[3.176s] Compiling '/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/__init__.py'...
+[3.176s] Listing '/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action'...
+[3.176s] Compiling '/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action/__init__.py'...
+[3.176s] Compiling '/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/action/_start_recording.py'...
+[3.179s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.179s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.179s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.180s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.180s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/local/lib/python3.10/dist-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_py.so
+[3.180s] -- Set runtime path of "/home/addinedu/ros_ws/camera_app/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_py.so" to ""
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/action/StartRecording.idl
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/action/StartRecording.action
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/ament_index/resource_index/package_run_dependencies/camera_msgs
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/ament_index/resource_index/parent_prefix_path/camera_msgs
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/ament_prefix_path.sh
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/ament_prefix_path.dsv
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/path.sh
+[3.180s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/environment/path.dsv
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/local_setup.bash
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/local_setup.sh
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/local_setup.zsh
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/local_setup.dsv
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/package.dsv
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/ament_index/resource_index/packages/camera_msgs
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cExport.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cExport.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.181s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cppExport.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cppExport.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_pyExport.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.182s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgsConfig.cmake
+[3.183s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/cmake/camera_msgsConfig-version.cmake
+[3.183s] -- Installing: /home/addinedu/ros_ws/camera_app/install/camera_msgs/share/camera_msgs/package.xml
+[3.184s] Invoked command in '/home/addinedu/ros_ws/camera_app/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/addinedu/ros_ws/camera_app/build/camera_msgs

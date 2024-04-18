@@ -1,0 +1,9 @@
+# Goal
+string filename
+---
+# Result
+bool success
+string message
+---
+# Feedback
+int32 frames_recorded

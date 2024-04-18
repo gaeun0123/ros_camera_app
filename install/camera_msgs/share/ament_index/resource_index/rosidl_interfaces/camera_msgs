@@ -1,0 +1,6 @@
+action/StartRecording.action
+action/StartRecording.idl
+srv/CaptureImage.idl
+srv/CaptureImage.srv
+srv/CaptureImage_Request.msg
+srv/CaptureImage_Response.msg
