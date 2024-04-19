@@ -1,7 +1,8 @@
 # camera_package using ROS2
-This project is a practice package for proficient use of ROS2 actions and services.
-This package allows you to turn on the camera and **start or stop recording**. **Capture** during recording is also possible.
-
+🌟 This project is a practice package for proficient use of ROS2 actions and services. <br>
+This package allows you to turn on the camera and **start or stop recording**. <br>
+**Capture** during recording is also possible.
+<br>
 ## Structure Tree
 ```
 ├── camera_control
@@ -39,12 +40,7 @@ Install Python requirements
 # OpenCV CPU Version
 pip install opencv-python
 pip install opencv-contrib-python
-
-
 ```
-
-
-
 
 ## Run examples in ROS2
 * ***camera_controller node***
@@ -52,11 +48,30 @@ pip install opencv-contrib-python
   source install/setup.sh
   ros2 run camera_control camera_controller
 ```
+<br>
+
+* ***video_recorder_server node*** (Action)
+```
+  source install/setup.sh
+  ros2 run camera_control video_recorder_server
+```
+<br>
+
+* ***video_recorder_client node*** (Action)
+```
+  source install/setup.sh
+  ros2 run camera_control video_recorder_client
+```
+> Stop recording by typing ```stop``` in the console.
+
+<br>
+
 * ***image_capture_server node*** (service)
 ```
   source install/setup.sh
   ros2 run camera_control image_capture_server
 ```
+<br>
 
 * ***service_client node*** (service)
 ```
@@ -64,14 +79,7 @@ pip install opencv-contrib-python
   ros2 run camera_control service_client
 ```
 
-* ***video_recorder_server node*** (Action)
-```
-  source install/setup.sh
-  ros2 run camera_control video_recorder_server
-```
+* * *
+## rqt graph
+![rosgraph](https://github.com/gaeun0123/ros_camera_app/assets/102429136/24e38fc6-c07f-4693-a2ff-a0d80c1c27d0)
 
-* ***video_recorder_client node*** (Action)
-```
-  source install/setup.sh
-  ros2 run camera_control video_recorder_client
-```
