@@ -1,0 +1,28 @@
+[0.492s] Invoking command in '/home/addinedu/ros_ws/camera_app/src/camera_control': PYTHONPATH=/home/addinedu/ros_ws/camera_app/build/camera_control/prefix_override:/home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/addinedu/ros_ws/camera_app/build/camera_control/build install --record /home/addinedu/ros_ws/camera_app/build/camera_control/install.log --single-version-externally-managed install_data
+[0.666s] running egg_info
+[0.666s] writing ../../build/camera_control/camera_control.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../build/camera_control/camera_control.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../../build/camera_control/camera_control.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/camera_control/camera_control.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/camera_control/camera_control.egg-info/top_level.txt
+[0.668s] reading manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.669s] copying camera_control/image_capture_server.py -> /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control
+[0.669s] running install
+[0.669s] running install_lib
+[0.670s] copying /home/addinedu/ros_ws/camera_app/build/camera_control/build/lib/camera_control/image_capture_server.py -> /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control
+[0.670s] byte-compiling /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/image_capture_server.py to image_capture_server.cpython-310.pyc
+[0.671s] running install_data
+[0.671s] running install_egg_info
+[0.672s] removing '/home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.672s] Copying ../../build/camera_control/camera_control.egg-info to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.685s] Installing camera_controller script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+[0.686s] Installing image_capture_server script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+[0.686s] Installing service_client script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+[0.686s] Installing video_recorder_client script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+[0.686s] Installing video_recorder_server script to /home/addinedu/ros_ws/camera_app/install/camera_control/lib/camera_control
+[0.686s] writing list of installed files to '/home/addinedu/ros_ws/camera_app/build/camera_control/install.log'
+[0.703s] Invoked command in '/home/addinedu/ros_ws/camera_app/src/camera_control' returned '0': PYTHONPATH=/home/addinedu/ros_ws/camera_app/build/camera_control/prefix_override:/home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/addinedu/ros_ws/camera_app/build/camera_control/build install --record /home/addinedu/ros_ws/camera_app/build/camera_control/install.log --single-version-externally-managed install_data

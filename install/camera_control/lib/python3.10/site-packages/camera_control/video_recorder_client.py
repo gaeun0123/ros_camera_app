@@ -27,10 +27,10 @@ class VideoRecorderClient(Node):
     def goal_response_callback(self, future):
         goal_handle = future.result()
         if not goal_handle.accepted:
-            self.get_logger().info('Goal rejected :(')
+            self.get_logger().info('Request failed!')
             return
 
-        self.get_logger().info('Goal accepted :)')
+        self.get_logger().info('Request success!')
 
         self._get_result_future = goal_handle.get_result_async()
         self._get_result_future.add_done_callback(self.get_result_callback)
@@ -52,7 +52,7 @@ class VideoRecorderClient(Node):
 def main(args=None):
     rclpy.init(args=args)
     client = VideoRecorderClient()
-    client.send_goal("output.avi")
+    client.send_goal("video.avi")
     rclpy.spin(client)
 
 if __name__ == '__main__':

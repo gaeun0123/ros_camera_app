@@ -13,7 +13,6 @@ class VideoRecorderServer(Node):
     def __init__(self):
         super().__init__("video_recorder_server")
 
-
         # Action server 생성
         self.action_server = ActionServer(
             self,
@@ -30,7 +29,10 @@ class VideoRecorderServer(Node):
 
 
         self.cv_bridge = CvBridge()
+
         self.video_writer = None
+        self.frame_count = 0
+        self.action_goal_active = False
 
 
     def execute_callback(self, goal_handle):
@@ -44,22 +46,30 @@ class VideoRecorderServer(Node):
             goal_handle.abort()
             return StartRecording.Result(success=False, message="Failed to start recording")
         
-        else:
-            goal_handle.succeed()
-            return StartRecording.Result(success = True, message = "Recording started")
+        # 녹화 시작
+        self.action_goal_active = True
+        goal_handle.succeed()
+        return StartRecording.Result(success = True, message = "Recording started")
 
 
     def listener_callback(self, goal_handle):
-        if self.video_writer.isOpened():
+        # 녹화가 시작되었고, video_wrtier가 존재한다면 프레임 저장
+        if self.action_goal_active and self.video_writer.isOpened():
             frame = self.cv_bridge.imgmsg_to_cv2(goal_handle, "bgr8")
             self.video_writer.write(frame)
 
-            self.get_logger().info("Frame written to video file")
+            # Feedback message
+            self.frame_count += 1
+            feedback_msg = StartRecording.Feedback()
+            feedback_msg.frames_recorded = self.frame_count
+            
+            self.get_logger().info(f"Feedback: {self.frame_count}, Frame written to video file")
 
         else:
             self.get_logger().warn("Video writer not intialized or closed")
 
     def on_shutdown(self):
+        self.action_goal_active = False
         self.video_writer.release()
         self.get_logger().info('Video file closed.')
 

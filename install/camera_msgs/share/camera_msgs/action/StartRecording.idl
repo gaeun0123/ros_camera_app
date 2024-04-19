@@ -6,7 +6,7 @@
 module camera_msgs {
   module action {
     @verbatim (language="comment", text=
-      "Goal")
+      "Request")
     struct StartRecording_Goal {
       string filename;
     };

@@ -1,0 +1,4 @@
+# capture_path.yaml
+capture__parameters:
+  ros__parameters:
+    file_path: "/home/addinedu/ros_video/capture.jpg"

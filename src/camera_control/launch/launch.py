@@ -12,9 +12,8 @@ def generate_launch_description():
 		default=os.path.join(
 			get_package_share_directory('camera_control'),
 			'param',
-			'size.yaml')
+			'config.yaml')
 		)
-
 
 	return LaunchDescription(
 		[
@@ -43,5 +42,12 @@ def generate_launch_description():
 				name='action_server',
 				parameters=[param_dir],
 				output='screen'),
+
+			Node(
+	            package='camera_control',
+	            executable='image_capture_server',
+	            name='image_capture_server',
+	            output='screen'),
+
 		]
 	)

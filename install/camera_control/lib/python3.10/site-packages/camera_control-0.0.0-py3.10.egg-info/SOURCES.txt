@@ -10,6 +10,8 @@ setup.py
 ../../build/camera_control/camera_control.egg-info/zip-safe
 camera_control/__init__.py
 camera_control/camera_controller.py
+camera_control/image_capture_server.py
+camera_control/service_client.py
 camera_control/video_recorder_client.py
 camera_control/video_recorder_server.py
 resource/camera_control
