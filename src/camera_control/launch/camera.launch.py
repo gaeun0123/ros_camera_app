@@ -26,21 +26,12 @@ def generate_launch_description():
 				package='camera_control',
 				executable='camera_controller',
 				name='camera_controller',
-				parameters=[param_dir],
-				output='screen'),
-
-			Node(
-				package='camera_control',
-				executable='video_recorder_client',
-				name='action_client',
-				parameters=[param_dir],
 				output='screen'),
 
 			Node(
 				package='camera_control',
 				executable='video_recorder_server',
 				name='action_server',
-				parameters=[param_dir],
 				output='screen'),
 
 			Node(

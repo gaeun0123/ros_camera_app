@@ -14,6 +14,10 @@ camera_control/image_capture_server.py
 camera_control/service_client.py
 camera_control/video_recorder_client.py
 camera_control/video_recorder_server.py
+launch/camera.launch.py
+param/capture_path.yaml
+param/config.yaml
+param/size.yaml
 resource/camera_control
 test/test_copyright.py
 test/test_flake8.py

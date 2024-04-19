@@ -12,6 +12,10 @@
 /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control/__pycache__/image_capture_server.cpython-310.pyc
 /home/addinedu/ros_ws/camera_app/install/camera_control/share/ament_index/resource_index/packages/camera_control
 /home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control/package.xml
+/home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control/launch/camera.launch.py
+/home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control/param/capture_path.yaml
+/home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control/param/size.yaml
+/home/addinedu/ros_ws/camera_app/install/camera_control/share/camera_control/param/config.yaml
 /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info/zip-safe
 /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info/entry_points.txt
 /home/addinedu/ros_ws/camera_app/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info/SOURCES.txt

@@ -8,20 +8,22 @@ class VideoRecorderClient(Node):
     def __init__(self):
         super().__init__('video_recorder_client')
         # 액션 클라이언트 생성
-        self._action_client = ActionClient(self, StartRecording, 'start_recording')
+        self.action_client = ActionClient(self, StartRecording, 'start_recording')
+        self.goal_handle = None
 
+        
     def send_goal(self, filename):
         goal_msg = StartRecording.Goal()
         goal_msg.filename = filename
 
         # 서버가 사용 가능할 때까지 대기
-        self._action_client.wait_for_server()
+        self.action_client.wait_for_server()
         
         # 액션 목표(goal) 보내기
-        self._send_goal_future = self._action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)
+        self.send_goal_future = self.action_client.send_goal_async(goal_msg)
         
         # 결과 처리
-        self._send_goal_future.add_done_callback(self.goal_response_callback)
+        self.send_goal_future.add_done_callback(self.goal_response_callback)
 
 
     def goal_response_callback(self, future):
@@ -32,28 +34,32 @@ class VideoRecorderClient(Node):
 
         self.get_logger().info('Request success!')
 
-        self._get_result_future = goal_handle.get_result_async()
-        self._get_result_future.add_done_callback(self.get_result_callback)
+        self.goal_handle = goal_handle
 
 
-    def get_result_callback(self, future):
-        result = future.result().result
-        self.get_logger().info('Result: {0}'.format(result.message))
-        
-        # 노드 종료
-        rclpy.shutdown()
-
-
-    def feedback_callback(self, feedback_msg):
-        feedback = feedback_msg.feedback
-        self.get_logger().info('Received feedback: {0}%'.format(feedback.frames_recorded))
+    # 사용자의 입력을 받으면 녹화 종료
+    def cancel_goal(self):
+        if self.goal_handle:
+            self.goal_handle.cancel_goal_async()
 
 
 def main(args=None):
     rclpy.init(args=args)
     client = VideoRecorderClient()
     client.send_goal("video.avi")
-    rclpy.spin(client)
+    
+    try:
+        # 녹화 중지 입력 받기
+        while True:
+            input_string = input("녹화 중지 : stop 입력\n")
+            if input_string == 'stop':
+                client.cancel_goal()
+                break
+    except KeyboardInterrupt:
+        pass
+
+    client.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
