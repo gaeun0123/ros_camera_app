@@ -3,6 +3,8 @@
 This package allows you to turn on the camera and **start or stop recording**. <br>
 **Capture** during recording is also possible.
 <br>
+<br>
+
 ## Structure Tree
 ```
 ├── camera_control
@@ -29,6 +31,8 @@ This package allows you to turn on the camera and **start or stop recording**. <
         └── CaptureImage.srv
 
 ```
+<br>
+
 ## Setup
 To get started
 ```
@@ -41,41 +45,27 @@ Install Python requirements
 pip install opencv-python
 pip install opencv-contrib-python
 ```
+<br>
 
 ## Run examples in ROS2
-* ***camera_controller node***
+* ***Activate camera_controller, video & capture server***
 ```
-  source install/setup.sh
-  ros2 run camera_control camera_controller
+    source install/setup.sh
+    ros2 launch camera_control camera.launch.py
 ```
+
 <br>
 
-* ***video_recorder_server node*** (Action)
+* ***Video Recorder*** (Action)
 ```
-  source install/setup.sh
-  ros2 run camera_control video_recorder_server
-```
-<br>
-
-* ***video_recorder_client node*** (Action)
-```
-  source install/setup.sh
   ros2 run camera_control video_recorder_client
 ```
 > Stop recording by typing ```stop``` in the console.
 
 <br>
 
-* ***image_capture_server node*** (service)
+* ***Image Capture*** (service)
 ```
-  source install/setup.sh
-  ros2 run camera_control image_capture_server
-```
-<br>
-
-* ***service_client node*** (service)
-```
-  source install/setup.sh
   ros2 run camera_control service_client
 ```
 
